@@ -1,0 +1,17 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<JdbcEntitySetup
+    xmlns="http://www.ontimize.com/schema/jdbc"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.ontimize.com/schema/jdbc http://www.ontimize.com/schema/jdbc/ontimize-jdbc-dao.xsd"
+    catalog="" schema="${symbol_dollar}{mainschema}" table="TROLE_SERVER_PERMISSION"
+    datasource="mainDataSource" sqlhandler="dbSQLStatementHandler">
+    <DeleteKeys>
+        <Column>ID_ROLE_SERVER_PERMISSION</Column>
+    </DeleteKeys>
+    <UpdateKeys>
+        <Column>ID_ROLE_SERVER_PERMISSION</Column>
+    </UpdateKeys>
+</JdbcEntitySetup>
