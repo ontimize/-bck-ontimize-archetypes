@@ -4,13 +4,12 @@
 
 	<parent>
 		<groupId>${groupId}</groupId>
-		<artifactId>${rootArtifactId}</artifactId>
-		<version>${version}</version>
+    <artifactId>${rootArtifactId}</artifactId>
+    <version>${version}</version>
 	</parent>
 
-	<name>${project.artifactId}</name>
-	<description>${project.artifactId}</description>
 	<artifactId>${artifactId}</artifactId>
+  <name>${project.groupId}:${project.artifactId}</name>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -20,17 +19,22 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>${groupId}</groupId>
-			<artifactId>${rootArtifactId}-api</artifactId>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>${rootArtifactId}-api</artifactId>
 		</dependency>
 
 		<dependency>
-			<groupId>${groupId}</groupId>
-			<artifactId>${rootArtifactId}-model</artifactId>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>${rootArtifactId}-model</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>${groupId}</groupId>
-			<artifactId>${rootArtifactId}-ws</artifactId>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>${rootArtifactId}-ws</artifactId>
+		</dependency>
+
+		<dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>${rootArtifactId}-frontend</artifactId>
 		</dependency>
 
 		<!-- Ontimize Boot -->
