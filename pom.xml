@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ontimize</groupId>
-    <artifactId>ontimize-boot-backend-archetype</artifactId>
+    <artifactId>ontimize-boot-web-8-archetype</artifactId>
     <version>1.0.0</version>
     <packaging>maven-archetype</packaging>
 
-    <name>Ontimize Boot Backend Archetype</name>
+    <name>Ontimize Boot Web 8 Archetype</name>
 
     <organization>
         <name>Imatia Innovation</name>
@@ -82,7 +82,7 @@
         </pluginManagement>
     </build>
 
-    <description>Ontimize Boot Backend is an archetype for building applications with Ontimize Boot Framework.</description>
+    <description>Ontimize Boot Web 8 is an archetype for building applications with Ontimize Boot Framework.</description>
 
     <url>https://www.ontimize.com/</url>
 
@@ -111,7 +111,7 @@
     <scm>
         <connection>scm:git:git://github.com/ontimize/ontimize-archetypes.git</connection>
         <developerConnection>scm:git:ssh://github.com:ontimize/ontimize-archetypes.git</developerConnection>
-        <url>https://github.com/ontimize/ontimize-boot-parent/tree/ontimize-boot-backend</url>
+        <url>https://github.com/ontimize/ontimize-archetypes/tree/ontimize-boot-web-8</url>
     </scm>
 
     <distributionManagement>
