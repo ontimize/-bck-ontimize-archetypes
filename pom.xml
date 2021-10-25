@@ -111,7 +111,7 @@
     <scm>
         <connection>scm:git:git://github.com/ontimize/ontimize-archetypes.git</connection>
         <developerConnection>scm:git:ssh://github.com:ontimize/ontimize-archetypes.git</developerConnection>
-        <url>https://github.com/ontimize/ontimize-boot-parent/tree/ontimize-boot-backend</url>
+        <url>https://github.com/ontimize/ontimize-archetypes/tree/ontimize-boot-backend</url>
     </scm>
 
     <distributionManagement>
