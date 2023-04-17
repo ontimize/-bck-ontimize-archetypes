@@ -5,7 +5,7 @@
 
     <groupId>com.ontimize</groupId>
     <artifactId>ontimize-boot-backend-archetype</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <packaging>maven-archetype</packaging>
 
     <name>Ontimize Boot Backend Archetype</name>
